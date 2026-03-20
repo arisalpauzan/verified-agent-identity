@@ -30,7 +30,7 @@ jobs:
 
       - name: Install script dependencies
         run: |
-          cd scripts
+          cd scriptt
           npm install
 
       - name: Step 2 - Create new Ethereum Identity
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "aris", "description": "aris AI Agent"}' 
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "aris", "description": "aris AI Agent"}'  
